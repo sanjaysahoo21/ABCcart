@@ -1,0 +1,66 @@
+/*cards section*/
+.cards-section {
+    width: 100%;
+    height: auto;
+    /*background-color: aqua;*/
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.card-items {
+    width: 100%;
+    height: auto;
+    /*background-color: red;*/
+    display: flex;
+    gap: 1rem;
+}
+/*product item*/
+.card-item {
+    width: 25rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+/*product image*/
+.card-item-image {
+    width: 100%;
+    height: 60%;
+    /*background-color: blue;*/
+}
+.item-image {
+    width: 100%;
+}
+/*product details*/
+.card-item-info {
+    width: 100%;
+    height: 30%;
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+.card-item-info div {
+    font-size: 2rem;
+}
+/*Add to cart button */
+.card-item-btn {
+    width: 100%;
+    height: 10%;
+    /*background-color: yellow;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-item-btn button {
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
